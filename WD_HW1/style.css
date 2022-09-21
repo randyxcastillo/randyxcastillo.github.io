@@ -1,0 +1,123 @@
+.wrapper {
+    font-family: arial;
+    font-size: 24px;
+    width: 90vw;
+    height: 90vh;
+
+    /* Setup */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.child {
+    width: 95vw;
+    height: 95vh;
+}
+
+.page-content {
+    /* Setup */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+.search-buttons-pages {
+    text-align: right;
+    margin: 10px;
+}
+
+.input-form{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 400px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.ad-search-bar {
+    width: 300px;
+    height: 20px;
+    margin: 3px;
+}
+.search-buttons {
+    margin: 20px;
+}
+
+.g-search-btn {
+    border: none;
+    color: rgb(100, 100, 100);
+    background-color: rgb(225, 225, 225);
+    min-width: 100px;
+    min-height: 25px;
+    max-width: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.g-search-btn:hover {
+    background-color: rgb(200, 200, 200);
+    color: rgb(85, 85, 85);
+    border: 5px;
+    border-color: rgb(225, 225, 225);
+    box-shadow: 5px;
+}
+
+.search-bar-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#googleLogo {
+    width: 300px;
+}
+
+.ad-search-btn {
+    border: none;
+    background-color: rgb(80, 149, 254);
+    color: rgb(255, 255, 255);
+    min-width: 100px;
+    min-height: 25px;
+    max-width: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.ad-search-btn:hover{
+    background-color: rgb(48, 127, 247);
+    color: rgb(255, 255, 255);
+}
+.search-labels{
+    margin: 50px;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+}
+label{
+    width: 300px;
+    display: inline-block;
+    padding: 5px;
+}
